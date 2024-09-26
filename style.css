@@ -764,7 +764,7 @@ form button {
     .soulspa {
         letter-spacing: 1px;
         font-size: 40px;
-   
+
     }
 
     .botique {
@@ -782,7 +782,7 @@ form button {
         flex-direction: column;
         width: 100%;
         text-align: center;
-     
+
     }
 
     .nav.active {
@@ -792,34 +792,12 @@ form button {
     li {
         margin-inline: 10px;
         margin: 10px 0;
-    
+
     }
-    li:hover{
+
+    li:hover {
         display: block;
     }
- 
-
-    /* ul {
-        list-style-type: none;
-    }
-
-    .nav {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-    }
-
-    li {
-        margin-inline: 20px;
-    }
-
-    li a {
-        color: black;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 16px;
-        text-transform: uppercase;
-    } */
 
     .delivery {
         width: 100%;
