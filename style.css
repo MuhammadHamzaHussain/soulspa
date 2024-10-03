@@ -150,7 +150,7 @@ li a {
     margin-bottom: 20px;
 }
 
-.slider{
+.slider {
     position: relative;
     overflow: hidden;
     height: 450px;
@@ -208,13 +208,42 @@ li a {
     margin-top: 20px;
     cursor: pointer;
     margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.sliderTwo {
+    position: relative;
+    overflow: hidden;
+    height: 220px;
+    width: 235px;
+    margin-left: 15px;
 }
 
 .sectionTwoImageThree img {
-    margin-top: 50px;
-    height: 218px;
+    height: 220px;
     width: 235px;
-    margin-left: 15px;
+}
+
+.sliderTwo button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sliderTwo button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.sliderTwo button:nth-of-type(1) {
+    left: 10px;
+}
+
+.sliderTwo button:nth-of-type(2) {
+    right: 10px;
 }
 
 /* Section Three */
@@ -793,7 +822,6 @@ form button {
     .soulspa {
         letter-spacing: 1px;
         font-size: 40px;
-
     }
 
     .botique {
@@ -811,7 +839,6 @@ form button {
         flex-direction: column;
         width: 100%;
         text-align: center;
-
     }
 
     .nav.active {
@@ -821,7 +848,6 @@ form button {
     li {
         margin-inline: 10px;
         margin: 10px 0;
-
     }
 
     li:hover {
@@ -928,18 +954,18 @@ form button {
         text-align: center;
     }
 
-    .slider{
+    .slider {
         position: relative;
         overflow: hidden;
         height: 250px;
         width: 100%;
     }
-    
+
     .sectionTwoImage img {
         height: 250px;
         width: 100%;
     }
-    
+
     .slider button {
         position: absolute;
         top: 50%;
@@ -949,23 +975,18 @@ form button {
         cursor: pointer;
         padding: 10px;
     }
-    
+
     .slider button:hover {
         background-color: rgba(255, 255, 255, 1);
     }
-    
+
     .slider button:nth-of-type(1) {
         left: 10px;
     }
-    
+
     .slider button:nth-of-type(2) {
         right: 10px;
     }
-
-    /* .sectionTwoImage img {
-        height: 250px;
-        width: 100%;
-    } */
 
     .pack {
         margin-top: 20px;
@@ -996,11 +1017,41 @@ form button {
         font-size: 16px;
     }
 
+    .sliderTwo {
+        position: relative;
+        overflow: hidden;
+        height: 250px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
     .sectionTwoImageThree img {
         margin-top: 20px;
         height: 250px;
         width: 100%;
         margin-left: 0px;
+    }
+
+    .sliderTwo button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .sliderTwo button:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .sliderTwo button:nth-of-type(1) {
+        left: 10px;
+    }
+
+    .sliderTwo button:nth-of-type(2) {
+        right: 10px;
     }
 
     /* Section Three */
