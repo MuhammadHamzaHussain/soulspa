@@ -121,4 +121,4 @@ function prevSlideFour() {
 
 showSlideFour();
 
-setInterval(nextSlideFour, 2000);
+setInterval(nextSlideFour, 3000);
