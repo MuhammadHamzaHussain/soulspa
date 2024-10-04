@@ -91,3 +91,34 @@ function prevSlideThree() {
 showSlideThree();
 
 setInterval(nextSlideThree, 2000);
+
+// Slider Four
+let slideIndexFour = 0;
+
+function showSlideFour() {
+  let slidesFour = document.getElementsByClassName("slideFour");
+  for (let i = 0; i < slidesFour.length; i++) {
+    slidesFour[i].style.display = "none";
+  }
+  slidesFour[slideIndexFour].style.display = "block";
+}
+
+function nextSlideFour() {
+  slideIndexFour++;
+  if (slideIndexFour >= document.getElementsByClassName("slideFour").length) {
+    slideIndexFour = 0;
+  }
+  showSlideFour();
+}
+
+function prevSlideFour() {
+  slideIndexFour--;
+  if (slideIndexFour < 0) {
+    slideIndexFour = document.getElementsByClassName("slideFour").length - 1;
+  }
+  showSlideFour();
+}
+
+showSlideFour();
+
+setInterval(nextSlideFour, 2000);
