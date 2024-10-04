@@ -2126,7 +2126,7 @@ form button {
         margin-top: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-content: center;
+        justify-content: left;
     }
 
     .organic h2 {
@@ -2186,6 +2186,121 @@ form button {
         margin-left: 0px;
         margin-bottom: 0px;
     }
+
+    /* Section Three */
+/* .sectionThree {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container-two {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.organic h2 {
+    margin-top: 400px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 80px;
+}
+
+.organic p {
+    text-align: right;
+    margin-right: 80px;
+}
+
+.image-four img {
+    width: 200px;
+    height: 188px;
+}
+
+.sliderThree {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 188px;
+    float: right;
+    margin-right: 80px;
+}
+
+.sliderThree button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sliderThree button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.sliderThree button:nth-of-type(1) {
+    left: 10px;
+}
+
+.sliderThree button:nth-of-type(2) {
+    right: 10px;
+}
+
+.sectionThreeImageTwo {
+    margin-right: 60px;
+}
+
+.sectionThreeImageTwo img {
+    height: 750px;
+    width: 500px;
+    position: relative;
+}
+
+.sliderFour {
+    position: relative;
+    overflow: hidden;
+    height: 750px;
+    width: 500px;
+}
+
+.sliderFour button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sliderFour button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.sliderFour button:nth-of-type(1) {
+    left: 10px;
+}
+
+.sliderFour button:nth-of-type(2) {
+    right: 10px;
+}
+
+.handcrafted h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.handcrafted p {
+    font-size: 20px;
+    margin-top: 40px;
+} */
 
     /* Section Four */
     .sectionFour {
@@ -2313,23 +2428,48 @@ form button {
         justify-content: center;
     }
 
-    .sectionFiveImage img {
-        width: 100%;
-        height: 700px;
+    .sliderFive img {
+        position: relative;
+        overflow: hidden;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    .sliderFive button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+    }
+
+    .sliderFive button:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .sliderFive button:nth-of-type(1) {
+        left: 20px;
+    }
+
+    .sliderFive button:nth-of-type(2) {
+        right: 20px;
     }
 
     .releases p {
         border: 3px solid black;
         background-color: black;
         color: white;
-        padding: 15px 30px;
+        width: 500px;
         text-transform: uppercase;
         letter-spacing: 3px;
-        font-size: 24px;
+        font-size: 30px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-align: center;
     }
 
     /* Section Six */
