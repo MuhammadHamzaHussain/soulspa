@@ -28,7 +28,7 @@ function prevSlide() {
 
 showSlide();
 
-setInterval(nextSlide, 2000);
+// setInterval(nextSlide, 2000);
 
 // Slider Two
 let slideIndexTwo = 0;
@@ -59,7 +59,7 @@ function prevSlideTwo() {
 
 showSlideTwo();
 
-setInterval(nextSlideTwo, 2000);
+// setInterval(nextSlideTwo, 2000);
 
 // Slider Three
 let slideIndexThree = 0;
@@ -90,7 +90,7 @@ function prevSlideThree() {
 
 showSlideThree();
 
-setInterval(nextSlideThree, 2000);
+// setInterval(nextSlideThree, 2000);
 
 // Slider Four
 let slideIndexFour = 0;
@@ -121,7 +121,7 @@ function prevSlideFour() {
 
 showSlideFour();
 
-setInterval(nextSlideFour, 2000);
+// setInterval(nextSlideFour, 2000);
 
 // Slider Five
 let slideIndexFive = 0;
@@ -152,4 +152,4 @@ function prevSlideFive() {
 
 showSlideFive();
 
-setInterval(nextSlideFive, 2000);
+// setInterval(nextSlideFive, 2000);
