@@ -153,3 +153,10 @@ function prevSlideFive() {
 showSlideFive();
 
 setInterval(nextSlideFive, 2000);
+
+const menuIcon = document.querySelector(".menu-icon");
+const navMenu = document.querySelector(".nav");
+
+menuIcon.addEventListener("click", function() {
+  navMenu.classList.toggle("active");
+});
