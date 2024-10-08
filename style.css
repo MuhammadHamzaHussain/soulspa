@@ -468,6 +468,8 @@ label {
 .sectionFiveImage {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 700px;
 }
 
 .sliderFive img {
