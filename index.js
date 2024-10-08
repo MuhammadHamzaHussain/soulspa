@@ -159,4 +159,10 @@ const navMenu = document.querySelector(".nav");
 
 menuIcon.addEventListener("click", function() {
   navMenu.classList.toggle("active");
+
+  if (navMenu.classList.contains("active")) {
+    menuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>'; 
+  } else {
+    menuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>'; 
+  }
 });
