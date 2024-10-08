@@ -2027,21 +2027,23 @@ form button {
     .container-one {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: auto auto;
         justify-content: center;
+        width: 100%;
+        gap: 0px;
     }
 
     .oils {
         border-right: 5px solid black;
-        height: 650px;
-        margin-right: 0px;
+        height: 800px;
+        margin-right: 10px;
         margin-top: 47px;
     }
 
     .oils h2 {
         margin-bottom: 15px;
         text-transform: uppercase;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: bold;
         text-align: right;
         margin-right: 25px;
@@ -2051,11 +2053,11 @@ form button {
         text-align: right;
         margin-right: 25px;
         margin-bottom: 60px;
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .sectionTwoImage {
-        margin-left: 0px;
+        margin-left: 30px;
     }
 
     .sectionTwoImage h1 {
@@ -2063,22 +2065,19 @@ form button {
         letter-spacing: 3px;
         text-transform: uppercase;
         margin-bottom: 20px;
-        font-size: 30px;
-        margin-left: 50px;
+        font-size: 24px;
     }
 
     .slider {
         position: relative;
         overflow: hidden;
-        height: 550px;
-        width: 500px;
-        
+        height: 750px;
+        width: 100%;
     }
 
     .sectionTwoImage img {
-        margin-left: 50px;
-        height: 550px;
-        width: 500px;
+        height: 750px;
+        width: 100%;
     }
 
     .slider button {
@@ -2088,7 +2087,7 @@ form button {
         background-color: rgba(255, 255, 255, 0.7);
         border: none;
         cursor: pointer;
-        padding: 20px;
+        padding: 10px;
     }
 
     .slider button:hover {
@@ -2096,7 +2095,7 @@ form button {
     }
 
     .slider button:nth-of-type(1) {
-        left: 60px;
+        left: 10px;
     }
 
     .slider button:nth-of-type(2) {
@@ -2108,67 +2107,28 @@ form button {
         grid-column: 1 / -1;
     }
 
-    /* .pack {
-        margin-top: 30px;
-        font-weight: bolder;
-        letter-spacing: 2px;
-        font-size: 40px;
-        margin-left: 0px;
-        text-align: center;
-    }
-
-    .dollar {
-        font-weight: bolder;
-        letter-spacing: 2px;
-        font-size: 40px;
-        margin-left: 0px;
-    }
-
-    .place {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .button {
-        background-color: black;
-        color: white;
-        text-align: center;
-        text-transform: uppercase;
-        padding: 10px 40px;
-        margin-top: 20px;
-        cursor: pointer;
-        margin-left: 0px;
-        font-size: 30px;
-    }
-
-    .sectionTwoImageThree img {
-        margin-top: 50px;
-        height: 350px;
-        width: 100%;
-        margin-left: 0px;
-    } */
-
     .pack {
-        margin-top: 30px;
+        margin-top: 100px;
         font-weight: bolder;
         letter-spacing: 2px;
         font-size: 40px;
         margin-left: 0px;
         text-align: center;
     }
-    
+
     .dollar {
         font-weight: bolder;
         letter-spacing: 2px;
-        font-size: 40px;
+        font-size: 35px;
         margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     .place {
         display: flex;
         flex-direction: column-reverse;
     }
-    
+
     .button {
         background-color: black;
         color: white;
@@ -2178,23 +2138,24 @@ form button {
         margin-top: 20px;
         cursor: pointer;
         margin-left: 0px;
-        font-size: 30px;
+        margin-bottom: 0px;
+        font-size: 24px;
     }
-    
+
     .sliderTwo {
         position: relative;
         overflow: hidden;
-        height: 300px;
+        height: 250px;
         width: 100%;
         margin-left: 0px;
     }
-    
+
     .sectionTwoImageThree img {
-        margin-top: 20px;
+
         height: 300px;
         width: 100%;
     }
-    
+
     .sliderTwo button {
         position: absolute;
         top: 50%;
@@ -2204,15 +2165,15 @@ form button {
         cursor: pointer;
         padding: 20px;
     }
-    
+
     .sliderTwo button:hover {
         background-color: rgba(255, 255, 255, 1);
     }
-    
+
     .sliderTwo button:nth-of-type(1) {
         left: 10px;
     }
-    
+
     .sliderTwo button:nth-of-type(2) {
         right: 10px;
     }
@@ -2228,64 +2189,134 @@ form button {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
+        width: 100%;
+        gap: 0px;
     }
 
     .organic h2 {
-        margin-top: 150px;
+        margin-top: 200px;
         margin-bottom: 15px;
         text-transform: uppercase;
-        font-size: 28px;
+        font-size: 24px;
         font-weight: bold;
         text-align: right;
-        margin-right: 20px;
+        margin-right: 60px;
     }
 
     .organic p {
         text-align: right;
-        margin-right: 20px;
-        font-size: 20px;
+        margin-right: 60px;
+        font-size: 24px;
     }
 
     .image-four img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .sliderThree {
         margin-top: 20px;
-        width: 250px;
+        position: relative;
+        overflow: hidden;
+        width: 300px;
         height: 250px;
         float: right;
-        margin-right: 20px;
+        margin-right: 60px;
+    }
+
+    .sliderThree button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+    }
+
+    .sliderThree button:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .sliderThree button:nth-of-type(1) {
+        left: 10px;
+    }
+
+    .sliderThree button:nth-of-type(2) {
+        right: 10px;
+    }
+
+    .sectionThreeImageTwo {
+        margin-right: 0px;
     }
 
     .sectionThreeImageTwo img {
         height: 750px;
-        padding-right: 0px;
+        width: 100%;
+        position: relative;
+    }
 
+    .sliderFour {
+        position: relative;
+        overflow: hidden;
+        height: 750px;
+        width: 100%;
+    }
+
+    .sliderFour button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+    }
+
+    .sliderFour button:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .sliderFour button:nth-of-type(1) {
+        left: 10px;
+    }
+
+    .sliderFour button:nth-of-type(2) {
+        right: 10px;
     }
 
     .handcrafted {
         display: grid;
         grid-column: 1 / -1;
+        width: 100%;
     }
 
     .handcrafted h1 {
-        font-size: 40px;
+        font-size: 30px;
         text-transform: uppercase;
-        margin-top: 20px;
+        margin-top: 50px;
+        width: 100%;
     }
 
     .handcrafted p {
-        margin-right: 0px;
-        margin-top: 20px;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 40px;
     }
 
     .handcrafted>p {
         display: none;
+        /* Hidden initially, as per your original code */
     }
 
     .maecenas::before {
+        width: 100%;
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.";
         display: block;
         text-align: justify;
         font-size: 24px;
         margin-left: 0px;
+        margin-right: 0px;
         margin-bottom: 0px;
     }
 
@@ -2403,7 +2434,6 @@ form button {
         font-size: 40px;
     }
 
-    /* Section Five */
     .sectionFive {
         margin-top: 50px;
         width: 100%;
@@ -2415,19 +2445,47 @@ form button {
         justify-content: center;
     }
 
-    .sectionFiveImage img {
+    .sliderFive {
+        width: 100%;
+    }
+
+    .sliderFive img {
+        position: relative;
+        overflow: hidden;
         width: 100%;
         height: 700px;
+    }
+
+    .sliderFive button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+    }
+
+    .sliderFive button:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .sliderFive button:nth-of-type(1) {
+        left: 10px;
+    }
+
+    .sliderFive button:nth-of-type(2) {
+        right: 10px;
     }
 
     .releases p {
         border: 3px solid black;
         background-color: black;
         color: white;
-        padding: 15px 30px;
+        padding: 15px 15px;
         text-transform: uppercase;
         letter-spacing: 3px;
-        font-size: 24px;
+        font-size: 28px;
         position: absolute;
         top: 50%;
         left: 50%;
