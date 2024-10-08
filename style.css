@@ -1426,6 +1426,8 @@ form button {
     .sectionFiveImage {
         display: flex;
         justify-content: center;
+        height: 250px;
+        width: 95vw;
     }
 
     .sectionFiveImage img {
