@@ -955,7 +955,6 @@ form button {
         justify-content: flex-start;
         background-color: rgb(241, 217, 204);
         display: none;
-
     }
 
     .nav.active {
@@ -1977,7 +1976,7 @@ form button {
     }
 
     /* Section One */
-    ul {
+    /* ul {
         list-style-type: none;
     }
 
@@ -1997,12 +1996,55 @@ form button {
         text-decoration: none;
         font-size: 16px;
         text-transform: uppercase;
+    } */
+
+    .menu-icon {
+        display: block;
+        float: right;
+        font-size: 40px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    li {
+        margin-inline: 0;
+        padding: 10px;
+    }
+
+    .nav {
+        margin-top: 50px;
+        width: 100%;
+        justify-content: flex-start;
+        background-color: rgb(241, 217, 204);
+        display: none;
+    }
+
+    .nav.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li:hover {
+        background-color: #ddd;
+        cursor: pointer;
+    }
+
+    .nav li a {
+        font-size: 30px;
     }
 
     .delivery {
         width: 100%;
         margin-top: 20px;
         background-color: black;
+        margin-top: 70px;
     }
 
     .delivery p {
